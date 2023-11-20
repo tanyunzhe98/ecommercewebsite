@@ -1,0 +1,125 @@
+.main-page-container {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.center-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-intro {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.try-it-button {
+  font-size: 1.2rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bottom-area {
+  height: 60px;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  font-size: 1.2rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 0.5rem;
+}
+
+.container-fluid .jumbotron, .container .jumbotron {
+  border-radius: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 768px)
+{
+.container-fluid .jumbotron, .container .jumbotron {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+}
+
+@media screen and (min-width: 768px)
+{
+.jumbotron {
+    padding-bottom: 48px;
+    padding-top: 48px;
+}
+}
+
+.jumbotron {
+  background-color: #eee;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.chatpage {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  min-width: 250px;
+  max-width: 250px;
+  background: linear-gradient(45deg, #b3d9ff 10%, #80b6ff 40%, #5c9eff 70%, #3548ff 100%);
+  opacity: 0.8;
+  padding: 0.5rem;
+}
+
+/* .col-md-9 {
+  padding-left: 25%;
+} */
+
+.chat-box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.new-theme-button {
+  height: 57px !important;
+}
+
+.custom-text-field input {
+  height: 20px !important;
+}
+
+.button {
+  color: #fff !important;
+  background: linear-gradient(45deg, #0077be 30%, #7b3d91 60%, #0051a8 90%);
+  box-shadow: 0 3px 5px 2px rgba(0, 81, 168, .3);
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background: linear-gradient(45deg, #1b66c2 30%, #7b3d91 60%, #0077be 90%);
+  color: #fff;
+  transform: scale(1.1);
+  box-shadow: 0 6px 10px rgba(0, 81, 168, .3);
+}
+
